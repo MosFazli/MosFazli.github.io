@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple');
+@import url('https://fonts.googleapis.com/css?family=Mochiy+Pop+One');
+@import url('https://fonts.googleapis.com/css?family=Edu+NSW+ACT+Foundation');
+
 
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1491956175078-460aea0914ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1550&q=80") center center;
+    background:linear-gradient(0deg,rgba(180, 180, 180,0.07),rgba(0,0,0,0.9)),url("https://i.postimg.cc/hPKtQkKn/wallpaper5.png") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -14,7 +18,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(255, 50, 50);
+    background:rgb(9, 61, 33);
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -25,8 +29,8 @@ body {
     animation: rotate 0.56s infinite linear;
     width:50px;
     height:50px;
-    border:12px solid #fff;
-    border-bottom:12px solid rgb(255, 50, 50);
+    border:12px solid #D4D4D4;
+    border-bottom:12px solid rgb(9, 61, 33);
     border-radius:50%;
     margin:0;
 }
@@ -47,10 +51,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(255, 50, 50);
+    background:rgb(9, 61, 33);
 }
 .box2 {
-    background:rgb(255, 50, 50);
+    background:rgb(9, 61, 33);
     margin-left:-5px;
 }
 #menu {
@@ -62,7 +66,7 @@ body {
 #menu a {
     margin:0px 6%;
     font-size:19px;
-    color:#fff;
+    color:#D4D4D4;
     text-decoration:underline;
 }
 #middle {
@@ -75,13 +79,14 @@ body {
     top:0;
     text-align:center;
     z-index:1;
-    color:#fff;
+    color:#D4D4D4;
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(255, 50, 50);
-    font-size:70px;
-    text-decoration:underline;
+    font-family: 'Mochiy Pop One';
+    color: #278c55;
+    font-size:60px;
+    font-weight: bolder;
 }
 #about {
     width:10vw;
@@ -90,7 +95,7 @@ body {
     font-size:25px;
     transform:rotate(-90deg);
     background:transparent;
-    color:#fff;
+    color:#D4D4D4;
     position:fixed;
     left:0;
     bottom:40vh;
@@ -108,7 +113,7 @@ body {
     font-size:25px;
     transform:rotate(90deg);
     background:transparent;
-    color:#fff;
+    color:#D4D4D4;
     position:fixed;
     right:0;
     bottom:40vh;
@@ -125,7 +130,7 @@ body {
     text-align:center;
     font-size:25px;
     background:transparent;
-    color:#fff;
+    color:#D4D4D4;
     position:fixed;
     bottom:0;
     left:45vw;
@@ -137,15 +142,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(24, 112, 65,0.9);
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(24, 112, 65,0.9);
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(24, 112, 65,0.9);
     cursor:pointer;
 }
 #middle table {
@@ -156,8 +161,8 @@ body {
     text-align:center;
 }
 .social {
-    color:#fff;
-    font-size:22px;
+    color:#D4D4D4;
+    font-size:30px;
     border-radius:50%;
     transition:0.4s ease-in-out;
     margin:0px 8px;
@@ -165,23 +170,26 @@ body {
 }
 .social:hover { 
     cursor: pointer;
-    color:rgb(255, 50, 50);
+    color:rgb(47, 153, 97);
 }
+
 .container {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 50, 50);
-    color:#fff;
+    background:linear-gradient(0deg,rgba(9, 61, 33,0.99),rgba(0,0,0,0.99));
+    color:#D4D4D4;
     z-index:9;
     position:fixed;
     max-height:100vh;
     overflow-y:auto;
     display:none;
+    font-family: 'Edu NSW ACT Foundation';
+    font-size: medium;
 }
 .container div {
     font-size:25px;
-    margin:20px 0px;
+    margin:10px 0px;
     transition:0.4s ease-in-out;
 }
 .container div:hover {
@@ -194,7 +202,7 @@ body {
     font-size:14px !important;
     display:inline-block;
     padding:8px 10px;
-    border:2px solid #fff;
+    border:2px solid #D4D4D4;
     margin:0px 10px;
     border-radius:50px;
 }
@@ -204,9 +212,27 @@ body {
 #used div:hover {
     cursor:text;
 }
+
+
+#used2 div{
+    font-size:14px !important;
+    display:inline-block;
+    padding:5px 8px;
+    border:2px solid #D4D4D4;
+    margin:0px 3px;
+    border-radius:10px;
+}
+#used2:hover {
+    cursor:text;
+}
+#used2 div:hover {
+    cursor:text;
+}
+
+
 .container h1 {
     font-size:60px;
-    text-decoration:underline;
+    font-weight: bolder;
 }
 .container p {
     font-size:21px;
@@ -214,9 +240,9 @@ body {
 .btn_one {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:#fff;
+    color:#D4D4D4;
     background:transparent;
-    border:3px solid #fff;
+    border:3px solid #D4D4D4;
     padding:8px 40px;
     border-radius:80px;
     font-weight:bold;
@@ -225,15 +251,15 @@ body {
 }
 .btn_one:hover {
     cursor:pointer;
-    color:rgb(255, 50, 50);
-    background:#fff;
+    color:rgb(9, 61, 33);
+    background:#D4D4D4;
 }
 .btn_two {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:rgb(255, 50, 50);
-    background:#fff;
-    border:3px solid #fff;
+    color:rgb(9, 61, 33);
+    background:#D4D4D4;
+    border:3px solid #D4D4D4;
     padding:8px 40px;
     border-radius:80px;
     font-weight:bold;
@@ -244,6 +270,38 @@ body {
     cursor:pointer;
     padding:8px 60px;
 }
+
+.btn_three {
+    font-size:16px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #D4D4D4;
+    background:transparent;
+    border:3px solid #D4D4D4;
+    padding:4px 15px;
+    border-radius:80px;
+    margin:1vh 2px;
+    transition:0.2s ease-in-out;
+}
+.btn_three:hover {
+    cursor:pointer;
+    font-size:18px;
+    font-weight: bold;
+    padding:7px 40px;
+    color:rgb(9, 61, 33);
+    background:#D4D4D4;
+}
+
+.skills {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 3px;
+    margin: 2px;
+}
+.skills:hover {
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
 .container form input {
     width:46%;
     margin:20px 1%;
@@ -254,7 +312,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size:18px;
     transition:0.4s ease-in-out;
-    color:#fff;
+    color:#D4D4D4;
     font-weight:bold;
 }
 .container form textarea {
@@ -269,7 +327,7 @@ body {
     background:transparent;
     resize:none;
     transition:0.4s ease-in-out;
-    color:#fff;
+    color:#D4D4D4;
     font-weight:bold;
 }
 .container form input:focus {
@@ -281,10 +339,10 @@ body {
     border-bottom:3px solid rgba(255, 255, 255,1);
 }
 ::placeholder {
-    color:#fff;
+    color:#D4D4D4;
 }
 #footer {
-    color:#fff;
+    color:#D4D4D4;
     width:92vw;
     padding:5vh 4vw;
     text-align:right;
@@ -295,7 +353,7 @@ body {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(255, 50, 50) ;
+    color:rgb(54, 153, 99) ;
 }
 #particles-js {
     position:fixed;
@@ -307,17 +365,17 @@ body {
     height:5px;
 }
 ::-webkit-scrollbar-track {
-    background: #fff; 
+    background: #D4D4D4;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 50, 50); 
+    background: rgb(9, 61, 33);
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 50, 50,0.8); 
+    background: rgba(9, 61, 33,0.8);
 }
 ::selection {
-	color: #fff;
-	background: rgb(255, 50, 50);
+	color: #D4D4D4;
+	background: rgb(9, 61, 33);
 }
 
 @media (max-width: 800px){ 
